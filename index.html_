@@ -56,7 +56,6 @@ $(document).ready(function(){
         </hgroup>
         <nav>
             <ul>
-           		<li><a href="contact.html">Contact</a></li>
                 <li><a href="http://authorrisingtide.wordpress.com/" target="_blank">Blog</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="books.html">Books</a></li>
