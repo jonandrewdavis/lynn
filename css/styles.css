@@ -1,0 +1,127 @@
+/* content */
+.text-header {
+	font-size: 14pt;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-weight: bold;
+	
+}
+.icon
+{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.icon-top {
+	text-align: right;
+}
+.icon-1 {
+	text-decoration: none;
+	width: 30px;
+	text-align: center;
+}
+.iconleft
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+}
+.iconfoot
+{
+	width: 30px;
+}
+.slogan {
+	font-size: 14pt;
+	font-family: Tahoma; 
+	color: #ffffff;
+}
+.boright {
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: 9B9DA9;
+}
+.logo{
+	font-size: 11pt;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+.logox {
+	font-size: 8pt;
+	font-family: Arial;
+	color: 9C9DAA;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.logoding {
+	width: 240px;
+	height: 169px;
+}
+/*main menu*/
+.menu {
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.amenu{
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.submenua {
+	font-size: 8pt;
+	color: #FFFFFF;
+	font-family: Tahoma;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.submenu {
+	font-size: 8pt;
+	color: #FFFFFF;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: left;
+}
+.bot_menu {
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: E8B9A3;
+	text-decoration: none;
+	font-weight: normal;
+}
+.bmenu {
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+.bmenua {
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: #ffffff;
+	text-decoration: underline;
+}
+.menuline {
+	color: #D6D6D6;
+	text-decoration: none;
+	background-color: #D6D6D6;
+	width: 1px;
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.amenu{
+
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: #FFFFFF;
+}
+.pageContent {
+	font-size: 9pt;
+	color: 838494;
+	font-family: Tahoma;
+
+}

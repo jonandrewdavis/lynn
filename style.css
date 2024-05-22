@@ -1,0 +1,738 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: #891b18;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+/* MY WEB FONTS*/
+
+.bcond {
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+}
+.cond {
+	font-family: "Pathway Gothic One", "Lucida Grande", sans-serif;
+}
+.light {
+	font-family: "Pathway Gothic One", "Lucida Grande", sans-serif;
+}
+.regular {
+	font-family: "Pathway Gothic One";
+}
+.rock {
+	font-family: "Rockwell W01", "Lucida Grande", sans-serif;
+}
+.brock {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+}
+
+/* MY WEB FONTS*/
+body {
+	background-image: url(img/bg.jpg);
+}
+
+header {
+	position: relative;
+	overflow: hidden;
+	background-image: url(img/bg-header.png);
+	z-index: 2;
+}
+#wrap {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#logo {
+	float: left;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+#logo a {
+	text-decoration: none;
+}
+#logo h1,
+h3 {
+	text-transform: uppercase;
+	color: #f0f0f0;
+}
+#logo h1 {
+	font-size: 45px;
+	padding: 0px 40px 10px 40px;
+	font-family: "Pathway Gothic One", "Lucida Grande", sans-serif;
+}
+#logo h2 {
+	font-size: 14px;
+	color: #f0f0f0;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 0px 0px 10px 0px;
+}
+#logo h3 {
+	font-family: "Pathway Gothic One";
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+nav {
+	width: 600px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	position: absolute;
+	right: 0;
+}
+nav ul {
+	display: block;
+	position: relative;
+}
+nav li {
+	float: right;
+	padding: 0 20px 0 20px;
+	display: block;
+}
+nav li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #f0f0f0;
+	font-size: 16px;
+	font-family: "Rockwell W01", "Lucida Grande", sans-serif;
+}
+nav li a:hover {
+	text-decoration: underline;
+}
+
+#social {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	width: 200px;
+}
+#social a {
+	float: right;
+	margin: 0 5px 0 5px;
+	background-image: url(img/social.png);
+	text-indent: -9999px;
+	height: 16px;
+	width: 16px;
+}
+
+#book {
+	position: absolute;
+	width: 700px;
+	top: -60px;
+	left: 50%;
+	margin-left: -700px;
+}
+#book-inside {
+	position: absolute;
+	width: 700px;
+	top: -30px;
+	left: 50%;
+	margin-left: 0px;
+}
+
+#spread-wrap {
+	width: 600px;
+	float: right;
+	padding-top: 60px;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 100px;
+	color: #222;
+}
+#spread {
+	text-align: center;
+}
+#spread h2 {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+	font-size: 36px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+#spread h1 {
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	font-size: 130px;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+}
+#spread h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 20px;
+	font-size: 21px;
+	font-style: italic;
+}
+#spread h3 {
+	font-family: "Pathway Gothic One", "Lucida Grande", sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #222;
+	letter-spacing: 12px;
+	padding-bottom: 40px;
+}
+
+#about #content p {
+	font-size: 16px;
+}
+
+#line {
+	height: 4px;
+	display: block;
+	margin-left: 22px;
+	margin-right: 22px;
+	border-top-width: 3px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #222;
+	border-bottom-color: #222;
+	margin-bottom: 20px;
+}
+
+#spread a {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+#spread a:hover {
+	text-decoration: underline;
+}
+
+#internal {
+	width: 960px;
+	float: left;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 40px;
+	color: #222;
+	text-align: center;
+}
+#internal #image {
+	position: absolute;
+	right: 120px;
+	height: 200px;
+	width: 200px;
+}
+#internal #text {
+	padding-top: 40px;
+}
+#internal h2 {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+#internal h1 {
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	font-size: 46px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+#internal p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 24px;
+	padding: 0 280px 8px 280px;
+	font-style: italic;
+}
+
+#content {
+	float: left;
+	width: 630px;
+}
+#sidebar {
+	float: right;
+	width: 240px;
+}
+#about {
+	float: left;
+	width: 960px;
+	position: relative;
+}
+
+#about #blob {
+	opacity: 0.7;
+	background-image: url(img/blob.png);
+	width: 300px;
+	height: 600px;
+	position: absolute;
+	top: 340px;
+	left: -110px;
+	background-repeat: no-repeat;
+}
+
+#content h1,
+#sidebar h1 {
+	font-size: 36px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #222;
+	border-bottom-color: #222;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#about h1 {
+	font-size: 36px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #222;
+	border-bottom-color: #222;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+#about img {
+	float: left;
+	margin-right: 40px;
+}
+
+#content p {
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 10px;
+}
+
+.col-1 {
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px;
+	column-count: 2;
+	column-gap: 40px;
+}
+#sidebar article {
+	padding-bottom: 20px;
+}
+#sidebar article h2 {
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-bottom: 12px;
+}
+
+#sidebar article h1 {
+	text-transform: none;
+	margin-bottom: 0px;
+	border: none;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	font-family: "Rockwell W01", "Lucida Grande", sans-serif;
+	font-size: 16px;
+}
+#sidebar article p {
+	font-size: 12px;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+
+#footer {
+	height: 200px;
+	width: 960px;
+	margin-top: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #222;
+	padding-top: 30px;
+}
+#footer img {
+	float: right;
+}
+
+#about-lead {
+	float: right;
+	width: 400px;
+	margin-right: 10px;
+	text-align: left;
+}
+#about-lead.book {
+	float: right;
+	width: 550px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+#about-lead h1 {
+	font-size: 24px;
+	padding-top: 0px;
+	padding-bottom: 12px;
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+}
+#about-lead h2 {
+	font-size: 12px;
+	font-style: italic;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#about-lead p {
+	padding-right: 20px;
+	font-size: 12px;
+	line-height: 21px;
+	padding-bottom: 5px;
+}
+.read-more a {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	padding-right: 20px;
+}
+.buy-more a {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-left: 5px;
+	padding-right: 20px;
+}
+#about-lead p.buy-more {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.read-more {
+	text-align: right;
+}
+
+#review {
+	float: left;
+	width: 290px;
+	padding-right: 50px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #222;
+}
+
+#review h1 {
+	padding-top: 0px;
+	padding-bottom: 14px;
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+#review p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 24px;
+	padding-bottom: 8px;
+	font-style: italic;
+}
+#review .name {
+	padding-left: 130px;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+#about article {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #222;
+	margin-right: 120px;
+}
+#about article h2 {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-family: 'Pathway Gothic One', "Lucida Grande", sans-serif;
+	font-size: 21px;
+}
+
+#about article a {
+	font-family: "Rockwell W01 Bold", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#about article p {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.fb {
+	background-position: ;
+}
+.ama {
+	background-position: -24px 0px;
+}
+
+.twit {
+	background-position: -69px 0px;
+}
+
+.email {
+	background-position: -47px 0px;
+}
+
+.pre-header {
+	background: #000;
+	color: #fff;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.pre-header h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-transform: none;
+}
+
+.pre-header h3 strong {
+	font-weight: bold;
+}
+
+.books-book {
+	overflow: auto;
+	display: block;
+	width: 100%;
+	margin: 0 0 1.2em 0;
+}
+
+.books-book img {
+	float: none !important;
+	width: 100%;
+}
+
+.books-book .book-image {
+	float: left;
+	width: 280px;
+	margin-right: 50px;
+}
+
+.books-book .book-desc {
+	float: right;
+	width: 620px;
+}
+
+.books-book .book-desc p {
+	line-height: 1.4em;
+}
+
+.books-book h2 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	margin-top: 20px;
+	font-size: 52px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.amazon a {
+	color: #891b18;
+	display: block;
+	margin: 30px 0 30px 0;
+	font-size: 24px;
+}
+.amazon p {
+	display: block;
+	margin: 30px 0 30px 0;
+	font-size: 24px;
+}
+
+.welcome {
+	margin: 50px 0 10px 0;
+	font-size: 32px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-transform: uppercase;
+}
+
+.welcome-message {
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+}
+
+.sign-up h2 {
+	margin: 50px 0 10px 0;
+	font-size: 24px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-transform: uppercase;
+}
+
+.sign-up p {
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+}
+
+.sign-up .mc-field-group {
+	margin: 1em 0;
+}
+
+.sign-up label {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+	width: 200px;
+}
+.sign-up input {
+	font-size: 18px;
+}
+.sign-up input[type="text"],
+.sign-up input[type="email"] {
+	width: 400px;
+	font-size: 18px;
+	padding: 5px;
+	border-radius: 4px;
+}
+input[type="submit"] {
+	padding: 10px 15px;
+	background: #000;
+	color: #fff;
+	width: 200px;
+	margin-left: 204px;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}

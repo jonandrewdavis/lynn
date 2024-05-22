@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <item title="Lynn Steigleder, Author" link="Lynnsteiglederhome.php"/>
+  <item title="Meet Lynn Steigleder, Sci-fi, Fantasy/Mystery writer..." link="LynnSteiglederaboutme.php"/>
+  <item title="Upcoming Events" link="page1.php"/>
+  <item title="Photos" link="LynnSteiglederphotos.php"/>
+  <item title="Lynn Steigleder's Guestbook" link="LynnSteiglederGuestBook.php"/>
+  <item title="How to contact Lynn Steigleder" link="LynnSteiglederContactInformation.php"/>
+  <item title="Favorite Links" link="VI.php"/>
+  <item title="The Roth Show Radio Interview" link="page2.php"/>
+  <item title="Interview on EXTRA 99.1 FM" link="page4.php"/>
+  <item title="Interview with John Ogle" link="page3.php"/>
+</menu>

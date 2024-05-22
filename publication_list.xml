@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PUBLICATION-LIST CREATE-TIME="1295452286" VERSION="1.0">
+  <COMPONENT NAME="SB_Modules_GUI" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Common.lng"/>
+    <RESOURCE PATH="resources/styles/common.xsl"/>
+    <RESOURCE PATH="resources/styles/template.xsl"/>
+    <RESOURCE PATH="resources/styles/report.xsl"/>
+    <RESOURCE PATH="resources/images/statuses-error.gif"/>
+    <RESOURCE PATH="resources/images/statuses-info.gif"/>
+    <RESOURCE PATH="resources/images/statuses-success.gif"/>
+    <RESOURCE PATH="resources/images/mod_email.gif"/>
+    <RESOURCE PATH="resources/images/mod_url.gif"/>
+    <RESOURCE PATH="resources/images/btn_search_bg.gif"/>
+    <RESOURCE PATH="resources/css"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Logger" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_Modules_Broker" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_Modules_Storage" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Storage/Common.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Attach.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Manager.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Manager/Preview.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Db/Adapter/Mysql.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Db/Adapter/Sqlite.lng"/>
+    <RESOURCE PATH="/Modules/Transport/Response.lng"/>
+    <RESOURCE PATH="/Modules/Transport/Direct.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_List" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Paging.lng"/>
+    <RESOURCE PATH="resources/styles/paging.xsl"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Wysiwyg" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="KCAPTCHA" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Captcha.lng"/>
+    <RESOURCE PATH="resources/styles/captcha.xsl"/>
+    <RESOURCE PATH="resources/images/components/captcha.php"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Message" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Message/PubStatus.lng"/>
+    <RESOURCE PATH="resources/js/Message"/>
+    <RESOURCE PATH="resources/js/validator.js"/>
+    <RESOURCE PATH="resources/styles/wysiwyg.xsl"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Settings" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="PEAR" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="Base_Modules_Session" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="Base_Modules_Filter" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="Base_Modules_Filter_Input" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_Modules" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_Modules_Object" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Validation.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Locale" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_ModuleInstance" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_Modules_Configuration" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/ModulesConfiguration.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_User" VERSION="4.5.0.2010090712"/>
+  <COMPONENT NAME="SB_Modules_PublicationExecutor" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/PublicationExecutor/Publish.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Category" VERSION="4.5.0.2010090712">
+    <RESOURCE PATH="/Modules/Category/Action.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_RssExport" VERSION="4.5.0.2010090712"/>
+  <MODULE CODE="Guestbook" VERSION="4.5.0">
+    <RESOURCE PATH="/Modules/Guestbook/Pub.lng"/>
+    <RESOURCE PATH="resources/styles/modules/Guestbook"/>
+    <RESOURCE PATH="resources/js/utils.js"/>
+    <RESOURCE PATH="resources/js/validator.js"/>
+  </MODULE>
+  <MODULE CODE="ImageGallery" VERSION="4.5.0">
+    <RESOURCE PATH="/Modules/ImageGallery/Frontend.lng"/>
+    <RESOURCE PATH="resources/styles/modules/ImageGallery"/>
+    <RESOURCE PATH="resources/styles/form.xsl"/>
+    <RESOURCE PATH="resources/js/modules/ImageGallery"/>
+    <RESOURCE PATH="resources/images/modules/ImageGallery/no_image.gif"/>
+  </MODULE>
+  <MODULE CODE="Statistics" VERSION="4.5.0">
+    <RESOURCE PATH="resources/images/modules/Statistics"/>
+    <RESOURCE PATH="resources/entryPoints/modules/Statistics/Counter.php"/>
+  </MODULE>
+  <MODULE CODE="Blogger" VERSION="4.5.0">
+    <RESOURCE PATH="/Modules/Blogger/PubPost.lng"/>
+    <RESOURCE PATH="/Modules/Blogger/PubComment.lng"/>
+    <RESOURCE PATH="/Modules/Blogger/Post/Months.lng"/>
+    <RESOURCE PATH="resources/js/modules/Blogger"/>
+    <RESOURCE PATH="resources/js/utils.js"/>
+    <RESOURCE PATH="resources/js/validator.js"/>
+    <RESOURCE PATH="resources/styles/modules/Blogger"/>
+  </MODULE>
+  <MODULE CODE="DownloadableContent" VERSION="4.5.0"/>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">Lynnsteiglederhome.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">index.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">LynnSteiglederaboutme.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">page1.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">LynnSteiglederphotos.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">LynnSteiglederGuestBook.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">LynnSteiglederContactInformation.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">VI.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/jz3ih5rukfn/content.safe</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">page2.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/jehwxs8mvwb/content.safe</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">page4.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/x9hf0rjuf9z/content.safe</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">page3.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">menu.xml</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">config.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">resources/buttons.xsl</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">resources/submenuitems.xsl</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">resources/submenu.xsl</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">attachments/Image/P9130841.JPG</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">attachments/Image/P9130842.JPG</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">attachments/Image/Steigleder_Cover_2[5].jpg</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">attachments/CropImages/65d2f3a4f7df786afcf889d4f48323e5.jpeg</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/pwd.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/api.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/fnwi785grnl_Main.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/yrbjeu2k98s_Settings.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/6fb0qzqdsmn_Settings.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/5iu3jjjl242_Main.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/jz3ih5rukfn_Settings.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/jehwxs8mvwb_Settings.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2010090712">data/settings/x9hf0rjuf9z_Settings.php</ADDITIONAL-ITEMS>
+  <LOCALE VERSION="4.5.0.2010090712">/Modules/Guestbook/Pub.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Message/PubStatus.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Common.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Storage/Common.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Storage/Attach.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Storage/Manager.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Storage/Manager/Preview.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Storage/Db/Adapter/Mysql.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Storage/Db/Adapter/Sqlite.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Transport/Response.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Transport/Direct.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Paging.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Captcha.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Validation.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/ModulesConfiguration.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/PublicationExecutor/Publish.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Modules/ImageGallery/Frontend.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Components/Category/Action.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Modules/Blogger/PubPost.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Modules/Blogger/PubComment.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2010090712">/Modules/Blogger/Post/Months.lng</LOCALE>
+  <FILES>
+    <COMPONENT NAME="Modules_Guestbook" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Message" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Logger" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport_Direct" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport_Direct_Remote" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport_Rpc" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport_Request" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Broker" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_List" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Settings" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Base_Modules_Session" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Base_Modules_Filter" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Base_Modules_Filter_Input" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_const" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Object" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Object_Publish" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Locale" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_ModuleInstance" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Configuration" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_User" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_PublicationExecutor" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_ModuleInstance_Publish" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_ImageGallery" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Category" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_Statistics" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_Blogger" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_RssExport" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_RssExport_Format20" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_DownloadableContent" VERSION="4.5.0.2010090712"/>
+  </FILES>
+  <DIRS>
+    <COMPONENT NAME="Modules_Guestbook" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Message" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_GUI" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Storage" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport_Server" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Transport_Client" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Wysiwyg" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="KCAPTCHA" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="PEAR" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_ImageGallery" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="SB_Modules_Category" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_Statistics" VERSION="4.5.0.2010090712"/>
+    <COMPONENT NAME="Modules_Blogger" VERSION="4.5.0.2010090712"/>
+  </DIRS>
+</PUBLICATION-LIST>

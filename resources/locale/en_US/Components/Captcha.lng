@@ -1,0 +1,3 @@
+failed = "The specified confirmation code is wrong. Please try again."
+refreshImageTitle = "Reload image"
+title = "Please type the confirmation code you see on the image"

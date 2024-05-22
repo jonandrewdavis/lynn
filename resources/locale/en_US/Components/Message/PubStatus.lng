@@ -1,0 +1,6 @@
+commentAdded = "Your comment has been added."
+commentDeleted = "The comment has been deleted."
+commentNotAdded = "Your comment has not been added."
+commentNotDeleted = "The comment has not been deleted."
+commentNotUpdated = "The comment has not been updated."
+commentUpdated = "The comment has been updated."
